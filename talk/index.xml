@@ -6,17 +6,17 @@
     <description>Recent content in Recent &amp; Upcoming Talks on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Your Name</copyright>
+    <copyright>&amp;copy; 2017 Chris Tensmeyer</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Example Talk</title>
-      <link>https://ctensmeyer.github.io/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <title>CONFIRM - Clustering Of Noisy Form Images using Robust Metrics</title>
+      <link>https://ctensmeyer.github.io/talk/fhtw_15/</link>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://ctensmeyer.github.io/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <guid>https://ctensmeyer.github.io/talk/fhtw_15/</guid>
+      <description>&lt;p&gt;Early Version of Master&amp;rsquo;s thesis.&lt;/p&gt;
 </description>
     </item>
     

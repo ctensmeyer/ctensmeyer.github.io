@@ -6,17 +6,38 @@
     <description>Recent content in 1 on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Your Name</copyright>
-    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 Chris Tensmeyer</copyright>
+    <lastBuildDate>Thu, 10 Aug 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>https://ctensmeyer.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>Analysis of Convolutional Neural Networks for Document Image Classification</title>
+      <link>https://ctensmeyer.github.io/publication/analysis_of_cnns_for_doc_images/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ctensmeyer.github.io/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+      <guid>https://ctensmeyer.github.io/publication/analysis_of_cnns_for_doc_images/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convolutional Neural Networks for Font Classification</title>
+      <link>https://ctensmeyer.github.io/publication/clamm/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ctensmeyer.github.io/publication/clamm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Document Image Binarization with Fully Convolutional Neural Networks</title>
+      <link>https://ctensmeyer.github.io/publication/document_image_binarization_with_fully_convolutional_neural_networks/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ctensmeyer.github.io/publication/document_image_binarization_with_fully_convolutional_neural_networks/</guid>
+      <description>&lt;p&gt;I submitted this binarization algorithm to the 2017 Document Image Binarization Contest (DIBCO 2017) and have made the code and model files for evaluating the network available on &lt;a href=&#34;https://github.com/ctensmeyer/dibco_2017&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;. This repo has two versions.  One uses a densely connected CRF for post-processing, which improves results a little bit.  The other version uses only the network output.&lt;br /&gt;
+An earlier version of this algorithm placed first in the binarization task of the 2016 Competition on the Analysis of Handwritten Text in Images of Balinese Palm Leaf Manuscripts.  While the above mentioned repo  has only the DIBCO trained models, if you want model files trained on Palm Leaf Manuscripts, shoot me an email.&lt;/p&gt;
+
+&lt;p&gt;For training the network, I used my &lt;a href=&#34;https://github.com/ctensmeyer/caffe&#34; target=&#34;_blank&#34;&gt;fork&lt;/a&gt; of the popular deep learning library &lt;a href=&#34;http://caffe.berkeleyvision.org/&#34; target=&#34;_blank&#34;&gt;Caffe&lt;/a&gt;.  In my fork, you can find my implementation of the loss function presented in this paper in /src/caffe/layers/weighted_fmeasure_loss_layer.cpp (.cu GPU implementation too).&lt;/p&gt;
 </description>
     </item>
     
