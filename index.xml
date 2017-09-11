@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>PageNet: Page Boundary Extraction in Historical Handwritten Documents</title>
+      <link>https://ctensmeyer.github.io/publication/pagenet/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ctensmeyer.github.io/publication/pagenet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Analysis of Convolutional Neural Networks for Document Image Classification</title>
       <link>https://ctensmeyer.github.io/publication/analysis_of_cnns_for_doc_images/</link>
       <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
@@ -25,7 +34,12 @@
       <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ctensmeyer.github.io/publication/clamm/</guid>
-      <description></description>
+      <description>&lt;p&gt;Models and code (with corresponding docker image instructions) for this paper can be found in this &lt;a href=&#34;https://github.com/ctensmeyer/font_classification&#34; target=&#34;_blank&#34;&gt;github repo&lt;/a&gt;.  The pixel annotations I created for one set of experiments can be found &lt;a href=&#34;http://axon.cs.byu.edu/clamm/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I submitted this method to the &lt;a href=&#34;http://clamm.irht.cnrs.fr/icfhr-2016/&#34; target=&#34;_blank&#34;&gt;2016&lt;/a&gt; and &lt;a href=&#34;http://clamm.irht.cnrs.fr/icdar-2017/&#34; target=&#34;_blank&#34;&gt;2017&lt;/a&gt; Competitions on Classification of Latin Medieval Manuscripts (CLaMM).  Here is the code for my &lt;a href=&#34;https://github.com/ctensmeyer/clamm_submission&#34; target=&#34;_blank&#34;&gt;2016&lt;/a&gt; and &lt;a href=&#34;https://github.com/ctensmeyer/clamm_2017&#34; target=&#34;_blank&#34;&gt;2017&lt;/a&gt; submissions.&lt;/p&gt;
+
+&lt;p&gt;In the 2016 competition, I placed 2nd in Task 1 and 3rd in Task 2 &lt;a href=&#34;http://clamm.irht.cnrs.fr/icfhr-2016/results/&#34; target=&#34;_blank&#34;&gt;(Results Table)&lt;/a&gt;.  2017 results have yet to be announced.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -34,8 +48,11 @@
       <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ctensmeyer.github.io/publication/document_image_binarization_with_fully_convolutional_neural_networks/</guid>
-      <description>&lt;p&gt;I submitted this binarization algorithm to the 2017 Document Image Binarization Contest (DIBCO 2017) and have made the code and model files for evaluating the network available on &lt;a href=&#34;https://github.com/ctensmeyer/dibco_2017&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;. This repo has two versions.  One uses a densely connected CRF for post-processing, which improves results a little bit.  The other version uses only the network output.&lt;br /&gt;
-An earlier version of this algorithm placed first in the binarization task of the 2016 Competition on the Analysis of Handwritten Text in Images of Balinese Palm Leaf Manuscripts.  While the above mentioned repo  has only the DIBCO trained models, if you want model files trained on Palm Leaf Manuscripts, shoot me an email.&lt;/p&gt;
+      <description>&lt;p&gt;I submitted this binarization algorithm to the 2017 Document Image Binarization Contest (DIBCO 2017) and have made the code and model files for evaluating the network available on &lt;a href=&#34;https://github.com/ctensmeyer/dibco_2017&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;. This repo has two versions.  One uses a densely connected CRF for post-processing, which improves results a little bit.  The other version uses only the network output.&lt;/p&gt;
+
+&lt;p&gt;The exact models used in this paper are available in a separate &lt;a href=&#34;https://github.com/ctensmeyer/binarization_2017&#34; target=&#34;_blank&#34;&gt;repo&lt;/a&gt; and have an associated &lt;a href=&#34;https://hub.docker.com/r/tensmeyerc/icdar2017/&#34; target=&#34;_blank&#34;&gt;docker image&lt;/a&gt;.  These include both models trained on DIBCO 2009-2014 and on the Palm Leaf Manuscripts.  The models I submitted to DIBCO 2017 were trained on DIBCO 2009-2016.&lt;/p&gt;
+
+&lt;p&gt;An earlier version of this algorithm placed first in the binarization task of the &lt;a href=&#34;http://amadi.univ-lr.fr/ICFHR2016_Contest/index.php/challenge-1&#34; target=&#34;_blank&#34;&gt;2016 Competition on the Analysis of Handwritten Text in Images of Balinese Palm Leaf Manuscripts&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;For training the network, I used my &lt;a href=&#34;https://github.com/ctensmeyer/caffe&#34; target=&#34;_blank&#34;&gt;fork&lt;/a&gt; of the popular deep learning library &lt;a href=&#34;http://caffe.berkeleyvision.org/&#34; target=&#34;_blank&#34;&gt;Caffe&lt;/a&gt;.  In my fork, you can find my implementation of the loss function presented in this paper in /src/caffe/layers/weighted_fmeasure_loss_layer.cpp (.cu GPU implementation too).&lt;/p&gt;
 </description>
