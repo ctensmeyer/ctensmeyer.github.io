@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Text Baseline Detection with Convolutional Neural Networks</title>
+      <link>https://ctensmeyer.github.io/talk/fhtw_18/</link>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ctensmeyer.github.io/talk/fhtw_18/</guid>
+      <description>&lt;p&gt;Code to come.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>PageNet: Page Boundary Extraction in Historical Handwritten Documents</title>
       <link>https://ctensmeyer.github.io/publication/pagenet/</link>
       <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
