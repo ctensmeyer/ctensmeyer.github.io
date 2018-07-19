@@ -52,11 +52,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://ctensmeyer.github.io/publication/analysis_of_cnns_for_doc_images/">
+  <link rel="canonical" href="https://ctensmeyer.github.io/publication/hwr_transfer/">
 
   
 
-  <title>Analysis of Convolutional Neural Networks for Document Image Classification | Academic</title>
+  <title>Language Model Supervision for Handwriting Recognition Model Adaptation | Academic</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -154,17 +154,17 @@
 
   
 <div class="article-header">
-  <img src="/img/cnn_filters.png" class="article-banner" itemprop="image">
-  <span class="article-header-caption">Region Specific CNN filters appear when trained to discriminate document layout types</span>
+  <img src="/img/bentham.jpg" class="article-banner" itemprop="image">
+  <span class="article-header-caption">Handwritten Lines</span>
 </div>
 
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">Analysis of Convolutional Neural Networks for Document Image Classification</h1>
+    <h1 itemprop="name">Language Model Supervision for Handwriting Recognition Model Adaptation</h1>
     <span class="pub-authors" itemprop="author">
       
-      Chris Tensmeyer, Tony Martinez
+      Chris Tensmeyer, Curtis Wigington, Brian Davis, Seth Stewart, Tony Martinez, Bill Barrett
       
     </span>
     <span class="pull-right">
@@ -173,35 +173,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fctensmeyer.github.io%2fpublication%2fanalysis_of_cnns_for_doc_images%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fctensmeyer.github.io%2fpublication%2fhwr_transfer%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Analysis%20of%20Convolutional%20Neural%20Networks%20for%20Document%20Image%20Classification&amp;url=https%3a%2f%2fctensmeyer.github.io%2fpublication%2fanalysis_of_cnns_for_doc_images%2f"
+         href="https://twitter.com/intent/tweet?text=Language%20Model%20Supervision%20for%20Handwriting%20Recognition%20Model%20Adaptation&amp;url=https%3a%2f%2fctensmeyer.github.io%2fpublication%2fhwr_transfer%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fctensmeyer.github.io%2fpublication%2fanalysis_of_cnns_for_doc_images%2f&amp;title=Analysis%20of%20Convolutional%20Neural%20Networks%20for%20Document%20Image%20Classification"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fctensmeyer.github.io%2fpublication%2fhwr_transfer%2f&amp;title=Language%20Model%20Supervision%20for%20Handwriting%20Recognition%20Model%20Adaptation"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fctensmeyer.github.io%2fpublication%2fanalysis_of_cnns_for_doc_images%2f&amp;title=Analysis%20of%20Convolutional%20Neural%20Networks%20for%20Document%20Image%20Classification"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fctensmeyer.github.io%2fpublication%2fhwr_transfer%2f&amp;title=Language%20Model%20Supervision%20for%20Handwriting%20Recognition%20Model%20Adaptation"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Analysis%20of%20Convolutional%20Neural%20Networks%20for%20Document%20Image%20Classification&amp;body=https%3a%2f%2fctensmeyer.github.io%2fpublication%2fanalysis_of_cnns_for_doc_images%2f">
+         href="mailto:?subject=Language%20Model%20Supervision%20for%20Handwriting%20Recognition%20Model%20Adaptation&amp;body=https%3a%2f%2fctensmeyer.github.io%2fpublication%2fhwr_transfer%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -218,7 +218,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Convolutional Neural Networks (CNNs) are state-of-the-art models for document image classification tasks.  However, many of these approaches rely on parameters and architectures designed for classifying natural images, which differ from document images. We question whether this is appropriate and conduct a large empirical study to find what aspects of CNNs most affect performance on document images.  Among other results, we exceed the state-of-the-art on the RVL- CDIP dataset by using shear transform data augmentation and an architecture designed for a larger input image. Additionally, we analyze the learned features and find evidence that CNNs trained on RVL-CDIP learn region-specific layout features.</p>
+  <p class="pub-abstract" itemprop="text">Training state-of-the-art offline handwriting recognition (HWR) models requires large labeled datasets, but unfortunately such datasets are not available in all languages and domains due to the high cost of manual labeling.  We address this problem by showing how high resource languages can be leveraged to help train models for low resource languages.  We propose a transfer learning methodology where we adapt HWR models trained on a source language to a target language that uses the same writing script.  This methodology only requires labeled data in the source language, unlabeled data in the target language, and a language model of the target language.  The language model is used in a bootstrapping fashion to refine predictions in the target language for use as ground truth in training the model.  Using this approach we demonstrate improved transferability among French, English, and Spanish languages using both historical and modern handwriting datasets.  In the best case, transferring with the proposed methodology results in character error rates nearly as good as full supervised training.</p>
 
   
   <div class="row">
@@ -245,7 +245,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9"><em>International Conference on Document Analysis and Recognition (ICDAR)</em>, IEEE.</div>
+        <div class="col-xs-12 col-sm-9"><em>16th International Conference on Frontiers in Handwriting Recognition</em></div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -258,7 +258,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          August, 2017
+          August, 2018
         </div>
       </div>
     </div>
@@ -278,26 +278,30 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1708.03273">
+<a class="btn btn-primary btn-outline" href="https://drive.google.com/file/d/1yB-ioG7mBtF8nbdpbYNRmRGMf6xtRuPF/view?usp=sharing">
   PDF
 </a>
 
 
 
 
-<a class="btn btn-primary btn-outline" href="https://github.com/ctensmeyer/caffe">
-  Code
+
+
+
+<a class="btn btn-primary btn-outline" href="http://www.fki.inf.unibe.ch/databases/iam-handwriting-database">
+  IAM Dataset
 </a>
 
-
-<a class="btn btn-primary btn-outline" href="http://scs.ryerson.ca/~aharley/rvl-cdip/">
-  Dataset
+<a class="btn btn-primary btn-outline" href="http://www.a2ialab.com/doku.php?id=rimes_database:start">
+  Rimes Dataset
 </a>
 
+<a class="btn btn-primary btn-outline" href="http://www.transcriptorium.eu/~tsdata/BenthamR0/">
+  Bentham Dataset
+</a>
 
-
-<a class="btn btn-primary btn-outline" href="https://drive.google.com/open?id=1oPdjEfc4ORN4pvfavXA-t3S-5H4AfvhB">
-  Poster
+<a class="btn btn-primary btn-outline" href="https://www.prhlt.upv.es/wp/resource/the-rodrigo-corpus">
+  Rodrigo Dataset
 </a>
 
 
@@ -319,12 +323,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://ctensmeyer.github.io/publication/clamm/"><span
-      aria-hidden="true">&larr;</span> Convolutional Neural Networks for Font Classification</a></li>
+    <li class="previous"><a href="https://ctensmeyer.github.io/publication/pagenet/"><span
+      aria-hidden="true">&larr;</span> PageNet: Page Boundary Extraction in Historical Handwritten Documents</a></li>
     
 
     
-    <li class="next"><a href="https://ctensmeyer.github.io/publication/pagenet/">PageNet: Page Boundary Extraction in Historical Handwritten Documents <span
+    <li class="next"><a href="https://ctensmeyer.github.io/publication/start_follow_read/">Start, Follow, Read: End-to-End Full Page Handwriting Recognition <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
